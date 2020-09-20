@@ -1,0 +1,95 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+}
+
+.header {
+    height: 200px;
+    background-image: url("images/19168199_101.jpg");
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main h2 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main h3{
+    font-size: 30px;
+}
+
+.main p {
+    font-size: 20px;
+    padding: 5px;
+    text-align: justify;
+    text-indent: 32px;
+}
+
+.left, .right, .center{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23%;
+    line-height: 2;
+}
+
+.left{
+    width: 23%;
+    line-height: 2;
+}
+
+.center{
+    position: absolute;
+    width: 54%;
+    left: 23%;
+    top: 0;
+    border-right: 1px solid darkcyan;
+    border-left: 1px solid darkcyan;
+}
+
+.img{
+    height: 100px;
+    background-image: url("images/images.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+a:link{
+    color: darkblue;
+    font-size: 25px;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+a:active{
+    color:cadetblue;
+}
